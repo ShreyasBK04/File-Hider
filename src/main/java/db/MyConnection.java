@@ -13,7 +13,7 @@ public class MyConnection {
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         }
-        System.out.println("Connection Completed");
+        System.out.println("Connection is Completed");
         return connection;
     }
     public static void closeConnection() {
